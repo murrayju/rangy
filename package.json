@@ -27,5 +27,13 @@
         "lib": "./lib"
     },
     "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {
+        "archiver": "*",
+        "jshint": "*",
+        "rimraf": "*",
+        "uglify-js": "*"
+    },
+    "scripts": {
+        "build": "node ./builder/build.js"
+    }
 }
